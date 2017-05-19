@@ -6,12 +6,12 @@
   "apps": [
     {
       "root": "assets/js/ng-app",
-      "outDir": "dist",
+      "outDir": ".tmp/public/js/ng-app",
       "assets": [
         "assets",
         "favicon.ico"
       ],
-      "index": "index.html",
+      "index": "../../../views/index.html",
       "main": "main.ts",
       "polyfills": "polyfills.ts",
       "test": "test.ts",
